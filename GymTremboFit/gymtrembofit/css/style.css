@@ -1,0 +1,434 @@
+body{
+    text-align: center;
+    color:  #f5f5f5;
+    font-size: 20px;
+    background:
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)),
+        url("../img/background.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    margin:0;
+    font-family: Trebuchet MS, sans-serifed;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: rgb(224, 12, 12); 
+    width: 100vw;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+header nav {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header nav a {
+    transition: transform 0.3s ease;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    transform: translateY(-5px);
+    /* box-shadow: 0 10px 20px rgba(89, 15, 15, 0.5); */
+}
+
+header nav a:hover {
+    transform: scale(1.2);
+    color: black;
+}
+header nav a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+
+    width: 0%;
+    height: 2px;
+
+    background: white;
+    transition: 0.3s;
+}
+
+header nav a:hover::after{
+    width: 100%;
+}
+
+main {
+    padding-bottom: 120px;
+    min-height: 50vh;
+}
+
+
+.logo {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+}
+
+/* aba planos */
+.corpo_tab {
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    font-family: Trebuchet MS, sans-serif;
+}
+ 
+/* CORRIGIDO: era height: 100vh — causava espaço enorme acima da tabela */
+.centralizar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 20px 0;
+}
+ 
+.tabela_servico {
+    border-collapse: collapse;
+    background-color: rgb(0, 0, 0);
+    border-width: 1px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 70px;
+}
+ 
+.tabela_servico th {
+    background-color: rgb(224, 12, 12);
+    color: white;
+    padding: 80px;
+    font-size: 40px;
+}
+ 
+.tabela_servico td {
+    padding: 20px;
+}
+ 
+.logo_plano {
+    width: 300px;
+}
+ 
+/* .botao_tab {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 100px;
+    background-color: rgb(224, 12, 12);
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+} */
+ 
+.botao_tab:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(89, 15, 15, 0.5);
+}
+ 
+.botao_tab:active {
+    transform: scale(0.95);
+}
+ 
+.esp1 {
+    width: 100%;
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+ 
+.esp1 h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.esp1 h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: rgb(224, 12, 12);
+}
+ 
+.esp1 p {
+    font-size: 22px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+ 
+.espb {
+    margin-top: 40px;
+}
+ 
+.espb button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(224, 12, 12);
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    margin: auto;
+    display: inline-block;
+}
+
+.espb button::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+
+    width: 0%;
+    height: 2px;
+
+    background: white;
+    transition: 0.3s;
+}
+.espb button:hover::after{
+    width: 100%;
+}
+
+.espb button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(89, 15, 15, 0.5);
+}
+
+.espb button:active {
+    transform: scale(0.95);
+}
+
+/* fim------------ */
+
+.titulo_principal {
+    font-size: 88px;
+    font-family: 'Teko', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 10px black;
+    margin-bottom: 0;
+    margin-top: 100px;
+}
+
+.subtitulo {
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cfcfcf;
+    margin-top: 300;
+}
+
+.container img {
+    width: 100%;
+    height: 70%;
+    border-radius: 30px;
+}
+
+.container div {
+    transition: transform 0.5s ease;
+    height: 330px;
+    width: 220px;
+    background-color: rgb(224, 12, 12); 
+    border-radius: 30px;
+    margin: 20px;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(89, 15, 15, 0.5);
+}
+
+.container div:hover {
+    transform: scale(1.1);
+}
+
+
+.links {
+    transition: transform 0.5s ease;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+}
+
+.links:hover {
+    transform: scale(1.1);
+    color: #000000;
+}
+
+.texto_card {
+    margin: 0 auto;
+}
+
+.principal_sobre {
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 40%;
+    display: block; 
+    position: absolute;
+    left: 20px;
+    text-align: left;
+}
+
+.principal_sobre h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.principal_sobre p {
+    width: 100%;
+    text-align: justify;
+}
+
+.botao_planos {
+    background-color: rgb(224, 12, 12);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.botao_planos a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.grade {
+    display: flex;
+    margin-top: 20px;
+    position: absolute;
+    right: 50px;
+    width: 50%;
+    height: 200px;
+    background-color: rgb(224, 12, 12);
+    border-radius: 20px;
+    padding: 13px;
+}
+
+.item {
+    width: 25%;
+}
+
+.item img {
+    width: 80px;
+    padding: 2px;
+}
+
+.item h2 {
+    color: black;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+.footer{
+    width: 100%;
+    
+    background: #000;
+
+    border-top: 2px solid red;
+
+    position: relative;
+
+    z-index: 1;
+
+    margin-top: 100px;
+
+}
+
+.footer-container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    gap: 20px;
+}
+
+.footer-logo h2{
+    color: #ff0000;
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+
+    text-shadow: 0 0 10px #ff0000;
+}
+
+.footer-logo p{
+    font-size: 0.85rem;
+    color: #999;
+}
+
+.footer-links,
+.footer-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.footer-links h3,
+.footer-contact h3{
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.footer-links a,
+.footer-contact p{
+    transform: translateY(-5px);
+    font-size: 0.85rem;
+    color: #bbb;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.footer-links a,
+.footer-contact p{
+    transform: scale(0.95);
+}
+
+.footer-links a:hover{
+    color: #ff0000;
+    transform: translateX(5px);
+}
+
+.footer-bottom{
+    margin-top: 20px;
+    border-top: 1px solid #222;
+
+    text-align: center;
+
+    padding-top: 10px;
+
+    font-size: 0.75rem;
+    color: #666;
+}
