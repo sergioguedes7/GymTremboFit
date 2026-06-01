@@ -275,13 +275,12 @@ main {
     transition: transform 0.5s ease;
     text-decoration: none;
     display: inline-block;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
 }
 
 .links:hover {
     transform: scale(1.1);
-    color: #000000;
 }
 
 .texto_card {
@@ -470,29 +469,21 @@ main {
 
 .footer{
     width: 100%;
-    
     background: #000;
-
     border-top: 2px solid red;
-
     position: relative;
-
     z-index: 1;
-
     margin-top: 100px;
-
 }
 
 .footer-container{
     width: 90%;
     max-width: 1200px;
     margin: auto;
-
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
-
     gap: 20px;
 }
 
@@ -500,7 +491,6 @@ main {
     color: #ff0000;
     font-size: 1.4rem;
     margin-bottom: 5px;
-
     text-shadow: 0 0 10px #ff0000;
 }
 
@@ -692,6 +682,11 @@ main {
 .lista-redes li a:hover {
     transform: scale(1.15);
     background: rgba(0,0,0,0.6);
+}
+
+.lista-redes img {
+    width: 25px;
+    height: 25px;
 }
 
 .contato-form-box {
@@ -943,6 +938,7 @@ main {
     cursor: pointer;
     font-size: 16px;
     transition: 0.3s;
+    margin-bottom: 0;
 }
 
 .btn_compra:hover {
