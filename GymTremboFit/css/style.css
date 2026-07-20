@@ -88,7 +88,7 @@ main {
     width: 80px;
 }
 
-/* aba planos */
+/* PLANOS */
 .corpo_tab {
     justify-content: center;
     text-align: center;
@@ -131,19 +131,7 @@ main {
 .logo_plano {
     width: 300px;
 }
- 
-/* .botao_tab {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 100px;
-    background-color: rgb(224, 12, 12);
-    color: white;
-    cursor: pointer;
-    font-size: 30px;
-    position: relative;
-    overflow: hidden;
-    transition: all 0.3s ease;
-} */
+
  
 .botao_tab:hover {
     transform: translateY(-5px);
@@ -226,11 +214,10 @@ main {
     transform: scale(0.95);
 }
 
-/* fim------------ */
-
+/*------------ */
+/* SOBRE */
 .titulo_principal {
     font-size: 80px;
-    /* font-family: 'Teko', sans-serif; */
     color: white;
     text-shadow: 2px 2px 10px black;
     margin-bottom: 0;
@@ -437,9 +424,10 @@ main {
   border-radius: 20px;
   width: 85%;
   max-width: 420px;
-  height: 460px;
+  aspect-ratio: 3 / 4;
+  height: auto;
   object-fit: cover;
-  object-position: center bottom;
+  object-position: center top;
   display: block;
   margin: auto;
   margin-top: auto;
@@ -957,4 +945,385 @@ main {
 
 .produtos:hover {
     transform: scale(1.05);
+}
+
+/* =====================================================
+   RESPONSIVIDADE - MEDIA QUERIES
+   ===================================================== */
+
+/* ---------- TABLETS (até 1024px) ---------- */
+@media (max-width: 1024px) {
+
+    .titulo_principal {
+        font-size: 60px;
+    }
+
+    .container div {
+        width: 190px;
+        height: 280px;
+    }
+
+    .principal_sobre {
+        width: 55%;
+    }
+
+    .grade {
+        width: 65%;
+    }
+
+    .tabela_servico th {
+        padding: 40px;
+        font-size: 30px;
+    }
+
+    .logo_plano {
+        width: 200px;
+    }
+
+    .contato-form-box {
+        width: 420px;
+    }
+
+    .beneficios-box {
+        width: 90%;
+    }
+}
+
+/* ---------- TABLETS / CELULARES GRANDES (até 768px) ---------- */
+@media (max-width: 768px) {
+
+    body {
+        font-size: 17px;
+    }
+
+    /* HEADER */
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 15px 20px;
+        gap: 12px;
+    }
+
+    .logo {
+        position: static;
+        height: 60px;
+        width: 60px;
+    }
+
+    header nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px 20px;
+        font-size: 16px;
+    }
+
+    header nav a {
+        transform: none;
+    }
+
+    /* HOME */
+    .titulo_principal {
+        font-size: 42px;
+        margin-top: 25px;
+    }
+
+    .subtitulo {
+        font-size: 18px;
+        padding: 0 15px;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        margin-top: 30px;
+        gap: 5px;
+    }
+
+    .container div {
+        width: 160px;
+        height: 230px;
+        margin: 10px;
+    }
+
+    .container div h2 {
+        font-size: 22px;
+    }
+
+    .texto_card {
+        font-size: 16px;
+    }
+
+    /* SOBRE */
+    .sobre {
+        min-height: 0;
+    }
+
+    .principal_sobre {
+        position: static;
+        width: 90%;
+        margin: 20px auto;
+        left: auto;
+        text-align: center;
+    }
+
+    .principal_sobre h1 {
+        font-size: 30px;
+    }
+
+    .principal_sobre p {
+        text-align: left;
+    }
+
+    .estatisticas {
+        margin-top: 20px;
+    }
+
+    .grade {
+        position: static;
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+        flex-wrap: wrap;
+    }
+
+    .grade .item {
+        width: 50%;
+        padding: 10px 0;
+    }
+
+    .grade .item h2 {
+        font-size: 30px;
+    }
+
+    .grade .item img {
+        width: 50px;
+    }
+
+    aside h4 {
+        margin-top: 20px;
+    }
+
+    .personais {
+        flex-direction: column;
+    }
+
+    .personais::after {
+        display: none;
+    }
+
+    .personais .item {
+        width: 100%;
+        padding: 25px 20px;
+    }
+
+    .personais .item img {
+        max-width: 320px;
+    }
+
+    .personais .item h2 {
+        font-size: 32px;
+    }
+
+    /* PLANOS */
+    .centralizar {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        padding: 20px 10px;
+    }
+
+    .tabela_servico {
+        min-width: 640px;
+    }
+
+    .tabela_servico th {
+        padding: 20px;
+        font-size: 22px;
+    }
+
+    .logo_plano {
+        width: 130px;
+    }
+
+    .esp1 {
+        padding: 15px 20px;
+    }
+
+    .esp1 h1,
+    .esp1 h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .esp1 p {
+        font-size: 16px;
+    }
+
+    .espb button {
+        font-size: 18px;
+        padding: 10px 16px;
+        margin: 6px;
+    }
+
+    /* PRODUTOS */
+    .tabela_produto {
+        min-width: 900px;
+        width: auto;
+    }
+
+    .tabela_produto th {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .tabela_produto td {
+        padding: 12px;
+    }
+
+    .produtos {
+        width: 100px;
+        height: 100px;
+    }
+
+    /* CONTATO */
+    .contato-hero h1 {
+        font-size: 42px;
+    }
+
+    .contato-hero p {
+        font-size: 16px;
+    }
+
+    .contato-wrapper {
+        padding: 0 20px 50px;
+        gap: 20px;
+    }
+
+    .contato-info,
+    .contato-form-box {
+        width: 100%;
+        max-width: 480px;
+    }
+
+    .beneficios-box {
+        margin: 0 20px 50px;
+        padding: 20px;
+        width: auto;
+    }
+
+    .beneficios-cols {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* FOOTER */
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-links,
+    .footer-contact {
+        align-items: center;
+    }
+}
+
+/* ---------- CELULARES (até 480px) ---------- */
+@media (max-width: 480px) {
+
+    body {
+        font-size: 15px;
+    }
+
+    .titulo_principal {
+        font-size: 32px;
+    }
+
+    .subtitulo {
+        font-size: 15px;
+    }
+
+    header nav {
+        gap: 10px 14px;
+        font-size: 14px;
+    }
+
+    .logo {
+        height: 50px;
+        width: 50px;
+    }
+
+    .container div {
+        width: 130px;
+        height: 190px;
+        margin: 6px;
+    }
+
+    .container div h2 {
+        font-size: 18px;
+    }
+
+    .principal_sobre h1 {
+        font-size: 24px;
+    }
+
+    .principal_sobre p {
+        font-size: 14px;
+    }
+
+    .grade .item h2 {
+        font-size: 22px;
+    }
+
+    .grade .item p {
+        font-size: 12px;
+    }
+
+    .personais .item img {
+        max-width: 240px;
+    }
+
+    .personais .item h2 {
+        font-size: 26px;
+    }
+
+    .esp1 h1,
+    .esp1 h2 {
+        font-size: 24px;
+    }
+
+    .esp1 p {
+        font-size: 14px;
+    }
+
+    .espb button {
+        font-size: 15px;
+        padding: 8px 14px;
+    }
+
+    .contato-hero h1 {
+        font-size: 30px;
+    }
+
+    .contato-info,
+    .contato-form-box {
+        padding: 20px;
+    }
+
+    .contato-info h2,
+    .contato-form-box h2 {
+        font-size: 24px;
+    }
+
+    .form-row {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .beneficios-box h2 {
+        font-size: 20px;
+    }
+
+    .btn-enviar {
+        font-size: 15px;
+    }
 }
