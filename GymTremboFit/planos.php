@@ -11,11 +11,11 @@
     <header>
       <img class="logo" src="img/logo_trembofit.png" alt="logo-trembofit">
       <nav>
-          <a href="index.html">Home</a>
-          <a href="sobre.html">Sobre</a>
-          <a href="planos.html">Planos</a>
-          <a href="produtos.html">Produtos</a>
-          <a href="contato.html">Contato</a>
+          <a href="index.php">Home</a>
+          <a href="sobre.php">Sobre</a>
+          <a href="planos.php">Planos</a>
+          <a href="produtos.php">Produtos</a>
+          <a href="contato.php">Contato</a>
       </nav>
     </header>
 
@@ -78,7 +78,7 @@
 
         </p>
         <div class="espb" > 
-            <a href="contato.html"><button class="espb"> Começar Agora </button></a> <a href="contato.html"><button class="espb"> Assinar Plano </button></a> 
+            <a href="contato.php"><button class="espb"> Começar Agora </button></a> <a href="contato.php"><button class="espb"> Assinar Plano </button></a> 
         </div>
     </div>
         <div class="esp1">
@@ -109,7 +109,7 @@
             R$ 69,90/mês
         </p>
         <div class="espb" > 
-            <a href="contato.html"><button> Começar Agora </button></a> <a href="contato.html"><button> Assinar Plano </button></a> 
+            <a href="contato.php"><button> Começar Agora </button></a> <a href="contato.php"><button> Assinar Plano </button></a> 
         </div>
     </div> 
         <div class="esp1">
@@ -146,7 +146,7 @@
 
         </p>
         <div class="espb" > 
-            <a href="contato.html"><button> Começar Agora </button></a> <a href="contato.html"><button> Assinar Plano </button></a>
+            <a href="contato.php"><button> Começar Agora </button></a> <a href="contato.php"><button> Assinar Plano </button></a>
         </div>
     </div> 
 
@@ -166,10 +166,10 @@
             <div class="footer-links">
                 <h3>Links</h3>
 
-                <a href="index.html">Home</a>
-                <a href="sobre.html">Sobre</a>
-                <a href="planos.html">Planos</a>
-                <a href="contato.html">Contato</a>
+                <a href="index.php">Home</a>
+                <a href="sobre.php">Sobre</a>
+                <a href="planos.php">Planos</a>
+                <a href="contato.php">Contato</a>
             </div>
 
             <div class="footer-contact">

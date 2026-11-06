@@ -14,11 +14,11 @@
     <header id="inicio">
         <img class="logo" src="img/logo_trembofit.png" alt="logo trembofit">
         <nav>
-            <a href="index.html">Home</a>
-            <a href="sobre.html">Sobre</a>
-            <a href="planos.html">Planos</a>
-            <a href="produtos.html">Produtos</a>
-            <a href="contato.html">Contato</a>
+            <a href="index.php">Home</a>
+            <a href="sobre.php">Sobre</a>
+            <a href="planos.php">Planos</a>
+            <a href="produtos.php">Produtos</a>
+            <a href="contato.php">Contato</a>
         </nav>
 
     </header>
@@ -32,14 +32,14 @@
         <section>
             <article>
                 <div class="container">
-                    <a class="links" href="sobre.html">
+                    <a class="links" href="sobre.php">
                         <div class="sobre_nos" >
                             <img src="img/sobre_nos.png" alt="card_sobre_nos">
                             <h2 style="margin: 0;">Sobre Nós</h2>
                             <p class="texto_card">Venha nos conhecer.</p>
                         </div>
                     </a>
-                    <a class="links" href="planos.html">
+                    <a class="links" href="planos.php">
                         <div class="planos">
                             <img src="img/planos.png" alt="card_planos">
                             <h2 style="margin: 0;">Planos</h2>
@@ -47,7 +47,7 @@
                         </div>
                     </a>
 
-                    <a class="links" href="produtos.html">
+                    <a class="links" href="produtos.php">
                         <div class="galeria">
                             <img src="img/galeria.png" alt="card_galeria">
                             <h2 style="margin: 0;">Produtos</h2>
@@ -55,7 +55,7 @@
                         </div>
                     </a>
 
-                    <a class="links" href="contato.html">
+                    <a class="links" href="contato.php">
                         <div class="contato">
                             <img src="img/contato.png" alt="card_contato">
                             <h2 style="margin: 0;">Contato</h2>
@@ -80,10 +80,10 @@
             <div class="footer-links">
                 <h3>Links</h3>
 
-                <a href="index.html">Home</a>
-                <a href="sobre.html">Sobre</a>
-                <a href="planos.html">Planos</a>
-                <a href="contato.html">Contato</a>
+                <a href="index.php">Home</a>
+                <a href="sobre.php">Sobre</a>
+                <a href="planos.php">Planos</a>
+                <a href="contato.php">Contato</a>
             </div>
 
             <div class="footer-contact">

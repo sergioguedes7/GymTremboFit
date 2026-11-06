@@ -10,11 +10,11 @@
     <header>
         <img class="logo" src="img/logo_trembofit.png" alt="logo-trembofit">
         <nav>
-            <a href="index.html">Home</a>
-            <a href="sobre.html">Sobre</a>
-            <a href="planos.html">Planos</a>
-            <a href="produtos.html">Produtos</a>
-            <a href="contato.html">Contato</a>
+            <a href="index.php">Home</a>
+            <a href="sobre.php">Sobre</a>
+            <a href="planos.php">Planos</a>
+            <a href="produtos.php">Produtos</a>
+            <a href="contato.php">Contato</a>
         </nav>
     </header>
 
@@ -78,7 +78,7 @@
                         <p>Auxilia no ganho de massa muscular e recuperação pós-treino.</p>
                         <p><strong>R$ 129,90</strong></p>
 
-                        <a href="contato.html">
+                        <a href="contato.php">
                             <button class="btn_compra">Comprar</button>
                         </a>
                     </td>
@@ -88,7 +88,7 @@
                         <p>Mais força, resistência e desempenho durante os treinos.</p>
                         <p><strong>R$ 99,90</strong></p>
 
-                        <a href="contato.html">
+                        <a href="contato.php">
                             <button class="btn_compra">Comprar</button>
                         </a>
                     </td>
@@ -98,7 +98,7 @@
                         <p>Mais energia, foco e intensidade para seus exercícios.</p>
                         <p><strong>R$ 99,90</strong></p>
 
-                        <a href="contato.html">
+                        <a href="contato.php">
                             <button class="btn_compra">Comprar</button>
                         </a>
                     </td>
@@ -107,7 +107,7 @@
                         <p>Mais força, firmeza e segurança para seus treinos pesados.</p>
                         <p><strong>R$ 18,90</strong></p>
 
-                        <a href="contato.html">
+                        <a href="contato.php">
                             <button class="btn_compra">Comprar</button>
                         </a>
                     </td>
@@ -117,7 +117,7 @@
                         <p>Mais força, intensidade e evolução para treinos de alto desempenho.</p>
                         <p><strong>R$ 249,90</strong></p>
 
-                        <a href="contato.html">
+                        <a href="contato.php">
                             <button class="btn_compra">Comprar</button>
                         </a>
                     </td>
@@ -127,7 +127,7 @@
                         <p>Maior produção hormonal, hipertrofia e aumento de força garantidos.</p>
                         <p><strong>R$ 139,90</strong></p>
 
-                        <a href="contato.html">
+                        <a href="contato.php">
                             <button class="btn_compra">Comprar</button>
                         </a>
                     </td>
@@ -136,7 +136,7 @@
                         <p>Mais recuperação, força e volume muscular para treinos intensos..</p>
                         <p><strong>R$ 115,90</strong></p>
 
-                        <a href="contato.html">
+                        <a href="contato.php">
                             <button class="btn_compra">Comprar</button>
                         </a>
                     </td>
@@ -158,10 +158,10 @@
             <div class="footer-links">
                 <h3>Links</h3>
 
-                <a href="index.html">Home</a>
-                <a href="sobre.html">Sobre</a>
-                <a href="planos.html">Planos</a>
-                <a href="contato.html">Contato</a>
+                <a href="index.php">Home</a>
+                <a href="sobre.php">Sobre</a>
+                <a href="planos.php">Planos</a>
+                <a href="contato.php">Contato</a>
             </div>
 
             <div class="footer-contact">
